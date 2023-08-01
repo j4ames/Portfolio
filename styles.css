@@ -88,6 +88,17 @@ button:hover {
     height: 100vh;
 }
 
+.containerrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-top: -20em;
+    padding: 1em;
+    gap: 1em;
+}
+
 .containercard {
     background-color: #8583fb;
     box-shadow: 0.2em 0.2em #7e96ff;
