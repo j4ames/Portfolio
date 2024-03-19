@@ -45,6 +45,10 @@ i:hover {
     opacity: 0.5;
 }
 
+.linksection > a:hover {
+    color: rgb(157, 173, 243);
+}
+
 /* CLASSES */
 
 /* CONTAINERS AND SECTIONS */
@@ -100,6 +104,7 @@ i:hover {
     height: 10rem;
     border-radius: 5rem;
     background-color: rgba(184, 184, 184, 0.192);
+    pointer-events: none;
 }
 
 .linksectionimages {
