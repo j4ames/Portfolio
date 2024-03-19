@@ -45,8 +45,12 @@ i:hover {
     opacity: 0.5;
 }
 
-.linksection > a:hover {
+.linksection > a {
     color: rgb(157, 173, 243);
+}
+
+.linksection > a:hover {
+    opacity: 0.5;
 }
 
 /* CLASSES */
