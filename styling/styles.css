@@ -93,7 +93,7 @@ i:hover {
 /* TEXT */
 
 .textbox {
-    background-color: rgba(184, 184, 184, 0.192);
+    background-color: rgb(41, 41, 41);
     border-radius: 0.3rem;
     margin: 0;
     padding: 0.4rem;
@@ -103,11 +103,16 @@ i:hover {
 
 /* IMAGES */
 
-.avatarimg {
-    width: 6rem;
+.avatarimgbackground {
+    background-color: rgb(41, 41, 41);
     height: 10rem;
-    border-radius: 5rem;
-    background-color: rgba(184, 184, 184, 0.192);
+    width: 7rem;
+    border-radius: 10rem;
+}
+
+.avatarimg {
+    width: 7rem;
+    height: 10rem;
     pointer-events: none;
 }
 
